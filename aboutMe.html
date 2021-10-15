@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="aboutme.css">
+    <meta charset="utf-8">
+    <style>
+
+    </style>
+</head>
+
+<body style="background-color: whitesmoke">
+
+    <br>
+    <div style="text-align: center;">
+        <img src="imgs/myface.jpeg" alt="sherwinFace" style="width:200px" class="profile">
+    </div>
+
+    <div class="topnav">
+        <a class="active" href="#home">About me</a>
+        <a href="resume.html">Resume</a>
+        <a href="contactMe.html">Contact me</a>
+    </div>
+    <br>
+    <br>
+
+    <div class="parallax"></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <ul style="list-style-type:disc">
+        <li class="text"> This picture on top is my family. They mean everything to me,
+            we always try to include each other in everything, we go on trips together,
+            laugh together and also cry together too. I would do anything for my family.
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="parallax2"></div>
+    <br>
+    <br>
+    <br>
+    <ul style="list-style-type:disc">
+        <li class="text"> This is someone I would call my bestfriend, You could say she and I and quite 'special'.
+            Her and I have a bond like no other. we talk to each other, we share secrets, and also keep secrets
+        </li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr class="divider">
+    <body >
+        <!-- image slider start -->
+        <div class="slider">
+            <div class="slides">
+                <!-- radio button start -->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <!-- radio button end -->
+                <!-- slide image start -->
+                <ul>
+                    <li class="text_bjj"> This is my second family. I joined this mix martial art classes when
+                        i was 15, I stayed and pratice for 6 years already, counting this year. I love them and they have 
+                        always been there for me. They've pushed me, motivated me, and got me into a competition, because of them 
+                        I've won a gold medal for it!
+                </ul>  
+                <div class="slide first">
+                    <img src="imgs/bjj.JPG" alt="BJJ">
+                </div>
+                <div class="slides">
+                    <img src="imgs/award.JPG" alt="sherwin's award">
+                </div>
+                <!-- slide imge end -->
+            </div>
+            <!-- manual navigation start -->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+            </div>
+            <!-- manual navigation end -->
+        </div>
+        <!-- image slider end -->
+    
+            <script type="text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 2){
+                    counter = 1;
+                }
+            },5000);
+            </script>
+    </body>  
+</body>
+
+</html>
+
+</div>
